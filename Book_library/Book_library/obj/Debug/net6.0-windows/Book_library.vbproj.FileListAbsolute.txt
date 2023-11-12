@@ -1,0 +1,17 @@
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\Book_library.Form1.resources
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\Book_library.Resources.resources
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\Book_library.vbproj.GenerateResource.cache
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\Book_library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\Book_library.AssemblyInfoInputs.cache
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\Book_library.AssemblyInfo.vb
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\Book_library.vbproj.CoreCompileInputs.cache
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\bin\Debug\net6.0-windows\Book_library.exe
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\bin\Debug\net6.0-windows\Book_library.deps.json
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\bin\Debug\net6.0-windows\Book_library.runtimeconfig.json
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\bin\Debug\net6.0-windows\Book_library.dll
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\bin\Debug\net6.0-windows\Book_library.pdb
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\Book_library.dll
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\refint\Book_library.dll
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\Book_library.pdb
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\Book_library.genruntimeconfig.cache
+C:\Users\adela\OneDrive\Obrazy\Documents\GitHub\TK\Book_library\Book_library\obj\Debug\net6.0-windows\ref\Book_library.dll
