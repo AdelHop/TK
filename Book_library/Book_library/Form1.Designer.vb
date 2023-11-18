@@ -27,8 +27,6 @@ Partial Class Form1
         TitleBox = New PictureBox()
         Label1 = New Label()
         RightBox = New PictureBox()
-        PictureBox4 = New PictureBox()
-        Detiles = New Label()
         Panel1 = New Panel()
         GroupBox1 = New GroupBox()
         Button2 = New Button()
@@ -53,6 +51,8 @@ Partial Class Form1
         Label12 = New Label()
         BodyBox = New PictureBox()
         GroupBoxDetails = New GroupBox()
+        TextBox1 = New TextBox()
+        PictureBox7 = New PictureBox()
         Label22 = New Label()
         Label23 = New Label()
         Label21 = New Label()
@@ -74,7 +74,6 @@ Partial Class Form1
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(TitleBox, ComponentModel.ISupportInitialize).BeginInit()
         CType(RightBox, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         Panel1.SuspendLayout()
         GroupBox1.SuspendLayout()
         CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
@@ -86,6 +85,7 @@ Partial Class Form1
         CType(PictureBox14, ComponentModel.ISupportInitialize).BeginInit()
         CType(BodyBox, ComponentModel.ISupportInitialize).BeginInit()
         GroupBoxDetails.SuspendLayout()
+        CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -110,12 +110,11 @@ Partial Class Form1
         ' 
         TitleBox.BackColor = SystemColors.ActiveCaption
         TitleBox.Enabled = False
-        TitleBox.Location = New Point(0, 0)
+        TitleBox.Location = New Point(0, 1)
         TitleBox.Name = "TitleBox"
-        TitleBox.Size = New Size(601, 39)
+        TitleBox.Size = New Size(783, 39)
         TitleBox.TabIndex = 3
         TitleBox.TabStop = False
-        TitleBox.Visible = False
         ' 
         ' Label1
         ' 
@@ -138,29 +137,6 @@ Partial Class Form1
         RightBox.TabIndex = 5
         RightBox.TabStop = False
         RightBox.Visible = False
-        ' 
-        ' PictureBox4
-        ' 
-        PictureBox4.BackColor = SystemColors.ControlDarkDark
-        PictureBox4.Enabled = False
-        PictureBox4.Location = New Point(600, 0)
-        PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(183, 39)
-        PictureBox4.TabIndex = 6
-        PictureBox4.TabStop = False
-        PictureBox4.Visible = False
-        ' 
-        ' Detiles
-        ' 
-        Detiles.AutoSize = True
-        Detiles.BackColor = SystemColors.ControlDarkDark
-        Detiles.Cursor = Cursors.No
-        Detiles.Font = New Font("Source Sans Pro", 20.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Detiles.Location = New Point(645, 3)
-        Detiles.Name = "Detiles"
-        Detiles.Size = New Size(92, 34)
-        Detiles.TabIndex = 7
-        Detiles.Text = "Details"
         ' 
         ' Panel1
         ' 
@@ -185,7 +161,7 @@ Partial Class Form1
         Panel1.Controls.Add(Fratire)
         Panel1.Location = New Point(0, 40)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(601, 484)
+        Panel1.Size = New Size(783, 484)
         Panel1.TabIndex = 27
         ' 
         ' GroupBox1
@@ -419,6 +395,8 @@ Partial Class Form1
         ' GroupBoxDetails
         ' 
         GroupBoxDetails.BackColor = SystemColors.ActiveCaption
+        GroupBoxDetails.Controls.Add(TextBox1)
+        GroupBoxDetails.Controls.Add(PictureBox7)
         GroupBoxDetails.Controls.Add(Label22)
         GroupBoxDetails.Controls.Add(Label23)
         GroupBoxDetails.Controls.Add(Label21)
@@ -435,16 +413,37 @@ Partial Class Form1
         GroupBoxDetails.Controls.Add(Label6)
         GroupBoxDetails.Controls.Add(Label5)
         GroupBoxDetails.Controls.Add(PictureBox6)
-        GroupBoxDetails.Location = New Point(600, 40)
+        GroupBoxDetails.Location = New Point(600, -9)
         GroupBoxDetails.Name = "GroupBoxDetails"
-        GroupBoxDetails.Size = New Size(183, 481)
+        GroupBoxDetails.Size = New Size(183, 528)
         GroupBoxDetails.TabIndex = 35
         GroupBoxDetails.TabStop = False
+        GroupBoxDetails.Visible = False
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.BackColor = SystemColors.ControlDarkDark
+        TextBox1.BorderStyle = BorderStyle.None
+        TextBox1.Font = New Font("Source Sans Pro", 20.25F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox1.Location = New Point(45, 10)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(100, 34)
+        TextBox1.TabIndex = 17
+        TextBox1.Text = "Details"
+        ' 
+        ' PictureBox7
+        ' 
+        PictureBox7.BackColor = SystemColors.ControlDarkDark
+        PictureBox7.Location = New Point(0, 7)
+        PictureBox7.Name = "PictureBox7"
+        PictureBox7.Size = New Size(183, 39)
+        PictureBox7.TabIndex = 16
+        PictureBox7.TabStop = False
         ' 
         ' Label22
         ' 
         Label22.AutoSize = True
-        Label22.Location = New Point(82, 244)
+        Label22.Location = New Point(63, 273)
         Label22.Name = "Label22"
         Label22.Size = New Size(47, 15)
         Label22.TabIndex = 15
@@ -453,7 +452,7 @@ Partial Class Form1
         ' Label23
         ' 
         Label23.AutoSize = True
-        Label23.Location = New Point(17, 244)
+        Label23.Location = New Point(17, 274)
         Label23.Name = "Label23"
         Label23.Size = New Size(48, 15)
         Label23.TabIndex = 14
@@ -462,7 +461,7 @@ Partial Class Form1
         ' Label21
         ' 
         Label21.AutoSize = True
-        Label21.Location = New Point(82, 320)
+        Label21.Location = New Point(72, 343)
         Label21.Name = "Label21"
         Label21.Size = New Size(47, 15)
         Label21.TabIndex = 13
@@ -471,7 +470,7 @@ Partial Class Form1
         ' Label20
         ' 
         Label20.AutoSize = True
-        Label20.Location = New Point(74, 301)
+        Label20.Location = New Point(66, 329)
         Label20.Name = "Label20"
         Label20.Size = New Size(47, 15)
         Label20.TabIndex = 12
@@ -480,7 +479,7 @@ Partial Class Form1
         ' Label19
         ' 
         Label19.AutoSize = True
-        Label19.Location = New Point(118, 282)
+        Label19.Location = New Point(110, 312)
         Label19.Name = "Label19"
         Label19.Size = New Size(47, 15)
         Label19.TabIndex = 11
@@ -489,7 +488,7 @@ Partial Class Form1
         ' Label18
         ' 
         Label18.AutoSize = True
-        Label18.Location = New Point(82, 263)
+        Label18.Location = New Point(73, 293)
         Label18.Name = "Label18"
         Label18.Size = New Size(47, 15)
         Label18.TabIndex = 10
@@ -498,7 +497,7 @@ Partial Class Form1
         ' Label17
         ' 
         Label17.AutoSize = True
-        Label17.Location = New Point(65, 224)
+        Label17.Location = New Point(63, 255)
         Label17.Name = "Label17"
         Label17.Size = New Size(47, 15)
         Label17.TabIndex = 9
@@ -507,7 +506,7 @@ Partial Class Form1
         ' Label16
         ' 
         Label16.AutoSize = True
-        Label16.Location = New Point(54, 205)
+        Label16.Location = New Point(54, 236)
         Label16.Name = "Label16"
         Label16.Size = New Size(47, 15)
         Label16.TabIndex = 8
@@ -516,7 +515,7 @@ Partial Class Form1
         ' Button3
         ' 
         Button3.BackColor = SystemColors.MenuHighlight
-        Button3.Location = New Point(54, 338)
+        Button3.Location = New Point(54, 364)
         Button3.Name = "Button3"
         Button3.Size = New Size(92, 34)
         Button3.TabIndex = 7
@@ -526,7 +525,7 @@ Partial Class Form1
         ' Label11
         ' 
         Label11.AutoSize = True
-        Label11.Location = New Point(17, 320)
+        Label11.Location = New Point(17, 343)
         Label11.Name = "Label11"
         Label11.Size = New Size(58, 15)
         Label11.TabIndex = 6
@@ -535,7 +534,7 @@ Partial Class Form1
         ' Label9
         ' 
         Label9.AutoSize = True
-        Label9.Location = New Point(17, 301)
+        Label9.Location = New Point(17, 328)
         Label9.Name = "Label9"
         Label9.Size = New Size(51, 15)
         Label9.TabIndex = 5
@@ -544,7 +543,7 @@ Partial Class Form1
         ' Label8
         ' 
         Label8.AutoSize = True
-        Label8.Location = New Point(17, 282)
+        Label8.Location = New Point(17, 312)
         Label8.Name = "Label8"
         Label8.Size = New Size(95, 15)
         Label8.TabIndex = 4
@@ -553,7 +552,7 @@ Partial Class Form1
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Location = New Point(17, 263)
+        Label7.Location = New Point(17, 293)
         Label7.Name = "Label7"
         Label7.Size = New Size(59, 15)
         Label7.TabIndex = 3
@@ -562,7 +561,7 @@ Partial Class Form1
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Location = New Point(17, 226)
+        Label6.Location = New Point(17, 256)
         Label6.Name = "Label6"
         Label6.Size = New Size(47, 15)
         Label6.TabIndex = 2
@@ -571,7 +570,7 @@ Partial Class Form1
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Location = New Point(17, 206)
+        Label5.Location = New Point(17, 236)
         Label5.Name = "Label5"
         Label5.Size = New Size(32, 15)
         Label5.TabIndex = 1
@@ -580,7 +579,7 @@ Partial Class Form1
         ' PictureBox6
         ' 
         PictureBox6.BackColor = SystemColors.ButtonFace
-        PictureBox6.Location = New Point(34, 22)
+        PictureBox6.Location = New Point(34, 52)
         PictureBox6.Name = "PictureBox6"
         PictureBox6.Size = New Size(112, 156)
         PictureBox6.TabIndex = 0
@@ -594,8 +593,6 @@ Partial Class Form1
         Controls.Add(GroupBoxDetails)
         Controls.Add(Panel1)
         Controls.Add(BodyBox)
-        Controls.Add(Detiles)
-        Controls.Add(PictureBox4)
         Controls.Add(RightBox)
         Controls.Add(Label1)
         Controls.Add(TitleBox)
@@ -606,7 +603,6 @@ Partial Class Form1
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(TitleBox, ComponentModel.ISupportInitialize).EndInit()
         CType(RightBox, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         GroupBox1.ResumeLayout(False)
@@ -620,6 +616,7 @@ Partial Class Form1
         CType(BodyBox, ComponentModel.ISupportInitialize).EndInit()
         GroupBoxDetails.ResumeLayout(False)
         GroupBoxDetails.PerformLayout()
+        CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
@@ -628,8 +625,6 @@ Partial Class Form1
     Friend WithEvents TitleBox As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents RightBox As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents Detiles As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label10 As Label
     Friend WithEvents PictureBox11 As PictureBox
@@ -671,4 +666,6 @@ Partial Class Form1
     Friend WithEvents Label17 As Label
     Friend WithEvents Label22 As Label
     Friend WithEvents Label23 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents PictureBox7 As PictureBox
 End Class

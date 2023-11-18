@@ -29,7 +29,6 @@ Public Class Form1
             selectedAuthor = ComboBox1.SelectedItem.ToString()
             selectedBook = ComboBox3.SelectedItem.ToString()
             selectedVersions = ComboBox4.SelectedItem.ToString()
-
             Label16.Text = selectedBook & ", Version: " & selectedVersions
             Label17.Text = selectedAuthor
             Label21.Text = selectedCategory
@@ -37,6 +36,8 @@ Public Class Form1
             Label20.Text = selectedBinding
             Label19.Text = selectedPublication
             Label18.Text = selectedPublisher
+
+            GroupBoxDetails.Visible = True
 
         Else
             MessageBox.Show("Please select an author, book, and version before saving.")
@@ -74,15 +75,12 @@ Public Class Form1
 
         ComboBox3.Items.Clear()
         ComboBox4.Items.Clear()
-
         ComboBox3.Items.AddRange(books.ToArray())
     End Sub
 
     Private Sub ComboBox3_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox3.SelectedIndexChanged
         Dim selectedBook As String = ComboBox3.SelectedItem.ToString()
         Dim versions As List(Of String) = versionsByBook(selectedBook)
-
-
 
         ComboBox4.Items.Clear()
         ComboBox4.Items.AddRange(versions.ToArray())
@@ -110,6 +108,6 @@ Public Class Form1
         GroupBox1.Visible = False
         MsgBox("The book has been ordered and you will be informed when it is ready for collection.")
 
-
     End Sub
+
 End Class
